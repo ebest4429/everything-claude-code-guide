@@ -23,7 +23,7 @@ Phase 2 잔여:
 - 항목 6: fuse.js 전체 콘텐츠 검색 + 하이라이팅
 - GitHub Pages 배포 (`npm run deploy`)
 
-`.Source-Files/everything-claude-code.md` 미복구 (별도 보완 예정)
+`.Source-Files/everything-claude-code.md` 플레이스홀더 복구 완료. Phase 3 시작 전 실제 내용 채움
 
 ---
 
