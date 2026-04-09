@@ -1,0 +1,99 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "MASTER=$(ls .claude/plans/*-master.md 2>/dev/null | head -1) && ACTIVE=$(grep '현재 활성 플랜' \"$MASTER\" 2>/dev/null | grep -o '`[^`]*`' | tr -d '`') && env MASTER=\"$MASTER\" ACTIVE=\"$ACTIVE\" node -e \"var fs=require('fs'),g={required:[process.env.MASTER,'.claude/plans/'+process.env.ACTIVE,'.claude/WORKSPACE.md'],read:[]};fs.writeFileSync('.claude/.session-gate.json',JSON.stringify(g,null,2))\" && echo '========== 세션 시작 ==========' && echo '' && echo '아래 3개 파일을 Read 도구로 읽어야 Bash/Edit/Write가 해제됩니다.' && echo '' && echo \"1. $MASTER\" && echo \"2. .claude/plans/$ACTIVE\" && echo '3. .claude/WORKSPACE.md'"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/session-gate.js"
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/check-plan.js"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/session-gate.js"
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/check-work-order.js"
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/session-gate.js"
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/protect-workspace.js"
+          },
+          {
+            "type": "command",
+            "command": "node .claude/hooks/protect-phase-transition.js"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/session-read-tracker.js"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/remind-plan-update.js"
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/remind-plan-update.js"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "filesystem",
+    "notebooklm"
+  ],
+  "env": {
+    "DISABLE_OMC": "1"
+  },
+  "enabledPlugins": {
+    "bkit@bkit-marketplace": false,
+    "bkit-starter@bkit-marketplace": false
+  }
+}
