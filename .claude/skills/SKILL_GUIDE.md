@@ -142,7 +142,7 @@
 
 | 위치 | 등록된 스킬 |
 |------|-----------|
-| `commands/` | translate-plugin, road-name-merge, road-name-merge-code, 도로명통합, 도로명통합-코드, 도로명편집병합-코드, skill-creator, schedule, analyze, build-dashboard, create-viz, explore-data, validate, write-query |
+| `commands/` | translate-plugin, road-name-merge, road-name-merge-code, 도로명통합, 도로명통합-코드, 도로명편집병합-코드, skill-creator, session-schedule, analyze, build-dashboard, create-viz, explore-data, validate, write-query |
 | `skills/` | archive-workspace, algorithmic-art, brand-guidelines, canvas-design, cowork-plugin-customizer, create-cowork-plugin, data-context-extractor, data-exploration, data-validation, data-visualization, doc-coauthoring, docx, interactive-dashboard-builder, internal-comms, mcp-builder, pdf, pptx, slack-gif-creator, sql-queries, statistical-analysis, theme-factory, web-artifacts-builder, xlsx |
 
 ---

@@ -23,15 +23,21 @@ Phase 2 잔여:
 - 항목 6: fuse.js 전체 콘텐츠 검색 + 하이라이팅
 - GitHub Pages 배포 (`npm run deploy`)
 
-긴급 복구 필요:
-- `.claude/hooks/` — session-gate, check-plan 등 훅 파일 소실. 템플릿 소스에서 복구 필요
-- `settings.json` — 훅 설정 파일 소실
-- `.Source-Files/`, `.Template/` — 참조 문서 소실
-- `.mcp.json`, `.agentignore`, `.claudeignore` — 설정 파일 소실
+`.Source-Files/everything-claude-code.md` 미복구 (별도 보완 예정)
 
 ---
 
 ## 진행 이력
+
+### 2026-04-10 구조 점검 및 보완
+
+| 항목 | 내용 |
+|------|------|
+| 점검-연결 | scope 경로 오류 2건 수정 (HOOK_GUIDE, SKILL_GUIDE 실제 경로로 교정) |
+| 점검-연결 | SKILL_GUIDE.md commands 목록 schedule → session-schedule 수정 |
+| 점검-구현 | CLAUDE.md 훅 복구 경고 섹션 제거 |
+| 점검-구현 | phase2.md 참고 섹션 구 복구 안내 제거 |
+| 점검-구현 | master.md 결정사항 이력 복구 완료로 업데이트 |
 
 ### 2026-04-09 .claude 소실 및 복구
 
@@ -41,6 +47,9 @@ Phase 2 잔여:
 | 피해 | .claude/, .Source-Files/, .Template/, .mcp.json 등 소실 |
 | 보존 | src/, dist/, node_modules/, package.json 등 Vite 파일은 정상 |
 | 조치 | CLAUDE.md, plans, WORKSPACE.md 핵심 파일 복구 완료 |
+| 2026-04-10 복구 | project-init에서 hooks, settings.json, commands, skills, .mcp.json, .Template 등 복구 |
+| 2026-04-10 수정 | CODE_DIRS, RULES.md, 점검-scope.md 프로젝트 맞게 수정 |
+| 2026-04-10 git | git init + 커밋 2개 (init, fix) |
 
 ### 2026-04-09 Phase 2 UI 셸 구현
 

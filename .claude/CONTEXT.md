@@ -74,9 +74,10 @@ everything-claude-code/
 
 ---
 
-## ⚠️ 복구 필요 항목
+## 복구 완료 항목 (2026-04-10)
 
-- `.claude/hooks/` — 훅 파일 전체 소실 (create-vite --overwrite)
-- `settings.json` — 훅 설정 소실
-- `.Source-Files/`, `.Template/` — 참조 문서 소실
-- `.mcp.json`, `.agentignore`, `.claudeignore` 소실
+- `.claude/hooks/` — 훅 파일 전체 복구 완료
+- `settings.json` — 훅 설정 복구 완료
+- `.Template/` — 복구 완료
+- `.Source-Files/everything-claude-code.md` — 미복구 (project-init에 없음, Phase 3 시작 전 필요)
+- `.mcp.json`, `.agentignore`, `.claudeignore` — 복구 완료 여부 미확인
