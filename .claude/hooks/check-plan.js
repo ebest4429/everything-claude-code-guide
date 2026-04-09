@@ -15,7 +15,7 @@ const path = require('path');
 
 const ROOT = path.resolve(__dirname, '../..');
 const WORKSPACE = path.join(ROOT, '.claude/WORKSPACE.md');
-const CODE_DIRS = ['app'];
+const CODE_DIRS = ['src', 'app', 'public'];
 
 // 재귀적으로 디렉터리 내 파일 최신 mtime 반환
 function getLatestMtime(dir) {

@@ -160,6 +160,12 @@
   },
   "hotPaths": [
     {
+      "path": ".claude\\RULES.md",
+      "accessCount": 3,
+      "lastAccessed": 1775758969212,
+      "type": "file"
+    },
+    {
       "path": ".claude\\plans\\everything-claude-code-phase2.md",
       "accessCount": 2,
       "lastAccessed": 1775758334079,
@@ -169,6 +175,18 @@
       "path": ".claude\\WORKSPACE.md",
       "accessCount": 2,
       "lastAccessed": 1775758334218,
+      "type": "file"
+    },
+    {
+      "path": ".claude\\hooks\\check-plan.js",
+      "accessCount": 2,
+      "lastAccessed": 1775758961430,
+      "type": "file"
+    },
+    {
+      "path": ".claude\\점검-scope.md",
+      "accessCount": 2,
+      "lastAccessed": 1775758970898,
       "type": "file"
     },
     {

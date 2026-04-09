@@ -27,7 +27,7 @@
 ## 플랜 규칙
 
 - 현재 Phase와 상태는 `WORKSPACE.md`에서 확인
-- 전체 Phase 구조와 확정 사항은 `template-master.md`에서 확인
+- 전체 Phase 구조와 확정 사항은 `everything-claude-code-master.md`에서 확인
 - 파일 수정 전 `WORKSPACE.md` + 현재 페이지 플랜 확인 필수
 - 완료된 체크박스 즉시 완료 표시로 업데이트
 - 플랜에 없는 작업 시작 전 사용자 확인 필수
@@ -59,7 +59,7 @@
 | 파일 | 확인 항목 |
 |------|----------|
 | `WORKSPACE.md` | 현재 상태 최신화 |
-| `template-master.md` | 확정 사항·미결 항목 최신화 |
+| `everything-claude-code-master.md` | 확정 사항·미결 항목 최신화 |
 | 현재 Phase 플랜 | 체크박스, 추가 작업 반영 |
 | `CONTEXT.md` | 구조 변경 시 업데이트 |
 | `RULES.md` | 새 원칙이 생긴 경우 추가 |
