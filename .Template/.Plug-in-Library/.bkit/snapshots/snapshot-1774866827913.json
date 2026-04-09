@@ -1,0 +1,545 @@
+{
+  "timestamp": "2026-03-30T10:33:47.911Z",
+  "reason": "compaction",
+  "status": {
+    "version": "2.0",
+    "lastUpdated": "2026-03-30T10:33:26.413Z",
+    "activeFeatures": [
+      "templates",
+      "scripts",
+      "office",
+      "helpers",
+      "validators"
+    ],
+    "primaryFeature": "templates",
+    "features": {
+      "templates": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-30T08:12:48.887Z",
+          "lastUpdated": "2026-03-30T08:12:48.887Z"
+        },
+        "lastFile": "C:/Users/admin/Project/.Plug-in-Library/algorithmic-art/templates/generator_template.js"
+      },
+      "scripts": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-30T10:14:24.988Z",
+          "lastUpdated": "2026-03-30T10:14:28.398Z"
+        },
+        "lastFile": "C:\\Users\\admin\\Project\\.Plug-in-Library\\docx\\scripts\\comment.py"
+      },
+      "office": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-30T10:18:02.327Z",
+          "lastUpdated": "2026-03-30T10:33:26.413Z"
+        },
+        "lastFile": "C:\\Users\\admin\\Project\\.Plug-in-Library\\docx\\scripts\\office\\validate.py"
+      },
+      "helpers": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-30T10:20:32.752Z",
+          "lastUpdated": "2026-03-30T10:33:12.356Z"
+        },
+        "lastFile": "C:\\Users\\admin\\Project\\.Plug-in-Library\\docx\\scripts\\office\\helpers\\simplify_redlines.py"
+      },
+      "validators": {
+        "phase": "do",
+        "phaseNumber": 3,
+        "matchRate": null,
+        "iterationCount": 0,
+        "requirements": [],
+        "documents": {},
+        "timestamps": {
+          "started": "2026-03-30T10:20:58.076Z",
+          "lastUpdated": "2026-03-30T10:31:55.630Z"
+        },
+        "lastFile": "C:\\Users\\admin\\Project\\.Plug-in-Library\\docx\\scripts\\office\\validators\\base.py"
+      }
+    },
+    "pipeline": {
+      "currentPhase": 1,
+      "level": "Dynamic",
+      "phaseHistory": []
+    },
+    "session": {
+      "startedAt": "2026-03-30T02:26:27.107Z",
+      "onboardingCompleted": false,
+      "lastActivity": "2026-03-30T10:33:26.413Z"
+    },
+    "history": [
+      {
+        "timestamp": "2026-03-30T08:12:48.887Z",
+        "feature": "templates",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:14:24.988Z",
+        "feature": "scripts",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:14:28.398Z",
+        "feature": "scripts",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:18:02.327Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:18:10.071Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:18:26.240Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:18:39.703Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:18:50.243Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:19:04.301Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:19:14.980Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:19:29.567Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:19:42.163Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:19:51.488Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:19:58.904Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:20:15.562Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:20:32.752Z",
+        "feature": "helpers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:20:45.756Z",
+        "feature": "helpers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:20:58.076Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:21:07.394Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:21:15.193Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:21:23.885Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:22:16.739Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:22:32.959Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:22:40.561Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:23:01.262Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:23:11.294Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:25:27.314Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:25:35.854Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:25:53.569Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:26:01.270Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:26:11.007Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:26:22.972Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:26:35.348Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:26:43.728Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:26:50.083Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:27:14.065Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:27:21.227Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:27:38.910Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:27:46.132Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:27:54.662Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:28:15.853Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:28:24.172Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:28:33.614Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:28:58.261Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:29:06.089Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:29:14.157Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:29:23.018Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:29:30.277Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:29:39.760Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:29:50.457Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:29:57.774Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:30:03.416Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:30:09.647Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:30:15.965Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:30:21.216Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:30:28.895Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:30:43.912Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:31:03.120Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:31:09.412Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:31:14.690Z",
+        "feature": "helpers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:31:21.423Z",
+        "feature": "helpers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:31:27.633Z",
+        "feature": "helpers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:31:34.805Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:31:40.898Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:31:48.208Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:31:55.630Z",
+        "feature": "validators",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:32:11.071Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:32:17.415Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:32:23.468Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:32:40.728Z",
+        "feature": "helpers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:32:53.278Z",
+        "feature": "helpers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:32:59.068Z",
+        "feature": "helpers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:33:04.841Z",
+        "feature": "helpers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:33:12.356Z",
+        "feature": "helpers",
+        "phase": "do",
+        "action": "updated"
+      },
+      {
+        "timestamp": "2026-03-30T10:33:26.413Z",
+        "feature": "office",
+        "phase": "do",
+        "action": "updated"
+      }
+    ]
+  }
+}

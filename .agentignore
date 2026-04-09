@@ -1,0 +1,31 @@
+# 외부 에이전트 스캔 제외 목록
+
+# 의존성 및 빌드 결과물
+node_modules/
+.next/
+dist/
+build/
+out/
+coverage/
+
+# 임시 및 로그 파일
+*.log
+.temp/
+tmp/
+
+# 환경 설정
+.env
+.env*.local
+.claude/
+.gemini/
+.git/
+
+# OMC 런타임 상태
+.omc/
+
+# 참조용 폴더 (프로젝트별 추가)
+OMC 가이드 작성/
+.claude/skills/claude-desktop-skills/
+.Template/
+# 예: reference/
+# 예: docs-private/

@@ -1,0 +1,8 @@
+{
+  "required": [
+    ".claude/plans/재정계획-master.md",
+    ".claude/plans/스킬수정플랜.md",
+    ".claude/WORKSPACE.md"
+  ],
+  "read": []
+}

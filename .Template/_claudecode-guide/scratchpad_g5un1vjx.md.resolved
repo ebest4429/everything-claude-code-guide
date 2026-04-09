@@ -1,0 +1,12 @@
+# Wikidocs TOC Extraction Task
+
+## Progress Checklist
+- [ ] Go to https://wikidocs.net/book/19104
+- [ ] Wait for page to load fully
+- [ ] Extract sidebar/TOC links and titles
+- [ ] Format as JSON-like array
+- [ ] Complete task
+
+## Findings
+- URL: https://wikidocs.net/book/19104
+- Metadata: 클로드 코드 가이드 - WikiDocs

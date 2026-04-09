@@ -1,0 +1,26 @@
+<evaluation>
+   <!-- 예제 평가 파일 (example_evaluation.xml)
+        용도: evaluation.py 동작 확인용 샘플 QA 쌍
+        실행: python evaluation.py -t stdio -c python -a my_server.py example_evaluation.xml
+   -->
+   <qa_pair>
+      <question>연간 이자율 5%로 월 복리 계산하여 $10,000를 3년 동안 투자했을 때 최종 금액은 얼마인가요? 소수점 둘째 자리까지 달러로 답하세요.</question>
+      <answer>11614.72</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>초기 속도 50 m/s로 45도 각도로 발사된 발사체가 2초 후 발사 지점으로부터 이동한 총 거리(미터)를 계산하세요. g=9.8 m/s²로 가정하고 소수점 둘째 자리까지 반올림하세요.</question>
+      <answer>87.25</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>부피가 500 세제곱미터인 구의 표면적을 제곱미터로 계산하세요. 소수점 둘째 자리까지 반올림하세요.</question>
+      <answer>304.65</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>다음 데이터셋의 모표준편차를 계산하세요: [12, 15, 18, 22, 25, 30, 35]. 소수점 둘째 자리까지 반올림하세요.</question>
+      <answer>7.61</answer>
+   </qa_pair>
+   <qa_pair>
+      <question>수소 이온 농도가 3.5 × 10^-5 M인 용액의 pH를 계산하세요. 소수점 둘째 자리까지 반올림하세요.</question>
+      <answer>4.46</answer>
+   </qa_pair>
+</evaluation>

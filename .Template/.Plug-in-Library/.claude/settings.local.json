@@ -1,0 +1,58 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '========== WORKSPACE ==========' && cat .claude/WORKSPACE.md && echo '' && echo '========== PLANS ==========' && for f in .claude/plans/*.md; do [ -f \"$f\" ] && echo \"--- $(basename $f) ---\" && cat \"$f\" && echo ''; done"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/check-plan.js"
+          }
+        ]
+      },
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/check-work-order.js"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/remind-plan-update.js"
+          }
+        ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node .claude/hooks/remind-plan-update.js"
+          }
+        ]
+      }
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "filesystem",
+    "notebooklm"
+  ]
+}
